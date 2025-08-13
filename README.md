@@ -6,5 +6,7 @@ The project allows users to sign up, log in, and manage their accounts with secu
 
 # 🛠 Tech Stack
 Frontend-React.js
+
+--
 Backend-Node.js, Express.js, Multer (file uploads), PostgreSQL
 
