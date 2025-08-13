@@ -1,0 +1,100 @@
+
+.login-page , .register-page {
+  display: flex;
+  background-color: #FEFAEE;
+  position: relative;
+  min-height: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 0 15px;
+  flex-direction: column;
+}
+
+.blue-box {
+  height: 180px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 100%;
+  background-color: var(--blue);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.login-form , .register-form {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 130px;
+  width: 100%;
+  max-width: 540px;
+  overflow: auto;
+  margin-bottom: 30px;
+}
+
+ h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.login-button, .register-button {
+  background: var(--blue);
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 7px;
+}
+
+.login-button:hover , .register-button:hover{
+  background: #517ae6;
+  color: white;
+}
+
+a {
+  color: var(--blue) !important;
+}
+
+.form-check label {
+  font-weight: 500 !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+
+.form-control::placeholder {
+  color: #aaa;
+  font-size: 15px;
+  font-style: italic;
+}
+
+@media(max-width:375px){
+  .login-page{
+    padding: 0px;
+  }
+
+  .form-container .blue-box{
+    height: 150px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .form-container .login-form ,  .form-container .register-form{
+    margin-top: 110px;
+    padding: 10px;
+  }
+
+  .login-page , .register-page{
+    padding: 0px;
+  }
+
+  .form-container h1 {
+    font-size: 30px;
+  }
+}

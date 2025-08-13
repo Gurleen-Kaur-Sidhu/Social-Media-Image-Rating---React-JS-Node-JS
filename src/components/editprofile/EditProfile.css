@@ -1,0 +1,58 @@
+.editprofile-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  padding: 10px 20px;
+}
+
+.editprofile-navbar h4 {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 0px;
+  color: var(--blue);
+}
+
+.editprofile-container {
+  min-height: 100%;
+  margin-top: 70px;
+  padding: 20px 20px 80px;
+}
+
+.editprofile-container p {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.post-button-container button {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--blue);
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.delete-profile-button{
+  font-size: 24px;
+  font-weight: 900;
+  color: red;
+  background: #f1d5d5;
+  border-radius: 10px;
+  border: none;
+  padding: 2px 8px;
+    padding-top: 0px;
+}
+
+.delete-profile-button:hover{
+  color: red;
+  background: #f1d5d5;
+}
+
+.editprofile-container label{
+  font-weight: 500;
+}

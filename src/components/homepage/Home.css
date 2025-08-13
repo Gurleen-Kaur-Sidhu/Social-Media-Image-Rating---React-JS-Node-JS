@@ -1,0 +1,141 @@
+.home-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  padding: 10px 12px;
+}
+
+.home-navbar .navbar-brand h4 {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 0px;
+}
+
+.home-navbar .ml-auto {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.home-navbar .navbar-nav .text-decoration-none {
+  font-size: 30px;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.home-navbar .navbar-nav .text-decoration-none:hover {
+  color: var(--blue);
+}
+
+.home-container {
+  min-height: 100%;
+  margin-top: 70px;
+}
+
+.home-container .image-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  /* border-radius: 20px; */
+}
+
+.home-container .image-div img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.home-container .icon-div {
+  font-size: 30px;
+  color: var(--blue);
+  background-color: #e3e5e5;
+}
+
+.home-container h6 {
+  font-size: 18px;
+}
+
+.home-container .wrapper-div {
+  border-radius: 15px;
+}
+
+.home-navbar .user-accountimage {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid var(--blue);
+}
+
+.home-container .user-post-profile {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #bbbbbb;
+}
+
+.navbar-nav {
+  flex-direction: row !important;
+}
+
+.home-navbar .create-post-icon {
+  font-size: 35px;
+  color: var(--blue);
+  border-radius: 10px;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: start;
+  gap: 3px;
+}
+
+.star {
+  font-size: 25px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.star.filled {
+  color: gold;
+}
+
+.home-container .average-para {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0px 8px;
+  /* background: var(--blue); */
+  border-radius: 6px;
+  color: #6d6f6f !important;
+}
+
+.column-imagediv {
+  padding: 0px !important;
+}
+
+.home-container .name-image-box{
+  cursor: pointer;
+}
+
+.image-caption{
+  font-weight: 500;
+}
+
+.wrapper-div{
+  border: 1px solid rgb(241, 241, 241);
+  box-shadow: none !important;
+}
+
+@media (max-width: 320px) {
+  .wrapper-div {
+    padding: 10px;
+  }
+
+  .star {
+    font-size: 18px;
+  }
+}
